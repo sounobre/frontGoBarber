@@ -50,7 +50,6 @@ const Input: React.FC<InputProps> = ({ name, icon: Icon, ...rest }) => {
         ref={inputRef}
         {...rest}
       />
-      {console.log(error)}
       {error && (
         <Error title={error}>
           <FiAlertCircle stroke="#c53030" size={20} />
